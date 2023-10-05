@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/flleat/telegram_bot_nodejs#readme",
   "dependencies": {
+    "mysql2": "^3.6.1",
     "node-telegram-bot-api": "^0.63.0"
   }
 }
