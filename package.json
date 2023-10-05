@@ -1,13 +1,22 @@
 {
   "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "Telegram bot for private activity",
+  "description": "telegram bot",
   "main": "bot.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flleat/telegram_bot_nodejs.git"
   },
   "author": "Shemeiko Taras",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flleat/telegram_bot_nodejs/issues"
+  },
+  "homepage": "https://github.com/flleat/telegram_bot_nodejs#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.63.0"
+  }
 }
